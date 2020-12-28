@@ -7,6 +7,7 @@ target 'swift-boilterplate' do
 
   # Pods for swift-boilterplate
 	pod 'SwiftLint'
+	pod 'R.swift'
 
   target 'swift-boilterplateTests' do
     inherit! :search_paths

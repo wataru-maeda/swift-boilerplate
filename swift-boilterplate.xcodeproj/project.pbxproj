@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5FCFE78C15CD15FC1FCBC1ED /* Pods_swift_boilterplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41583C9A50D593BAB5C09E8 /* Pods_swift_boilterplate.framework */; };
 		8DEDC5D648F0899860D1609D /* Pods_swift_boilterplate_swift_boilterplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DE61EF7ED35BBCD9615410 /* Pods_swift_boilterplate_swift_boilterplateUITests.framework */; };
+		A500F7532599B91300D211DE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A500F7522599B91300D211DE /* R.generated.swift */; };
 		A50E25F42599B69600BF4F5F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A50E25F22599B69500BF4F5F /* .gitignore */; };
 		A50E25F52599B69600BF4F5F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A50E25F32599B69600BF4F5F /* .swiftlint.yml */; };
 		A557556D2599B5B100406A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557556C2599B5B100406A39 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 		7D831D74A9C21A11C7D18C2A /* Pods-swift-boilterplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		883140A180D5B07C01F67BE8 /* Pods-swift-boilterplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.release.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		89D27156295A29257D164420 /* Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A500F7522599B91300D211DE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		A50E25F22599B69500BF4F5F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		A50E25F32599B69600BF4F5F /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		A55755692599B5B100406A39 /* swift-boilterplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-boilterplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				A55755752599B5B200406A39 /* Assets.xcassets */,
 				A50E25F22599B69500BF4F5F /* .gitignore */,
 				A50E25F32599B69600BF4F5F /* .swiftlint.yml */,
+				A500F7522599B91300D211DE /* R.generated.swift */,
 				A557557A2599B5B200406A39 /* Info.plist */,
 			);
 			path = "swift-boilterplate";
@@ -182,10 +185,12 @@
 			buildConfigurationList = A55755932599B5B200406A39 /* Build configuration list for PBXNativeTarget "swift-boilterplate" */;
 			buildPhases = (
 				6327092CEEE0315141D23D84 /* [CP] Check Pods Manifest.lock */,
+				A500F74E2599B89A00D211DE /* Run R.Swift */,
 				A55755652599B5B100406A39 /* Sources */,
 				A50E25F92599B6B100BF4F5F /* Run SwiftLint */,
 				A55755662599B5B100406A39 /* Frameworks */,
 				A55755672599B5B100406A39 /* Resources */,
+				5CFC726975EA69E11DEA969A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +228,7 @@
 				A55755862599B5B200406A39 /* Sources */,
 				A55755872599B5B200406A39 /* Frameworks */,
 				A55755882599B5B200406A39 /* Resources */,
+				6342B28E9740C96CEF876CA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,6 +334,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5CFC726975EA69E11DEA969A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6327092CEEE0315141D23D84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +372,44 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6342B28E9740C96CEF876CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A500F74E2599B89A00D211DE /* Run R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"",
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run R.Swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
 		A50E25F92599B6B100BF4F5F /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -400,6 +461,7 @@
 				A55755712599B5B100406A39 /* ViewController.swift in Sources */,
 				A557556D2599B5B100406A39 /* AppDelegate.swift in Sources */,
 				A557556F2599B5B100406A39 /* SceneDelegate.swift in Sources */,
+				A500F7532599B91300D211DE /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
