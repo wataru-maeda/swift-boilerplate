@@ -3,6 +3,7 @@ excluded:
   - Carthage/
   - swift-boilterplateTests
   - swift-boilterplateUITests
+  - R.generated.swift
 disabled_rules:
   - file_header
   - force_cast
