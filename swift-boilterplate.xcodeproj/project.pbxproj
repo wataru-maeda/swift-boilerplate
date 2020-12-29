@@ -12,6 +12,7 @@
 		A500F7532599B91300D211DE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A500F7522599B91300D211DE /* R.generated.swift */; };
 		A50E25F42599B69600BF4F5F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A50E25F22599B69500BF4F5F /* .gitignore */; };
 		A50E25F52599B69600BF4F5F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A50E25F32599B69600BF4F5F /* .swiftlint.yml */; };
+		A54D9DE7259B07EF00D46107 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D9DE6259B07EF00D46107 /* Config.swift */; };
 		A557556D2599B5B100406A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557556C2599B5B100406A39 /* AppDelegate.swift */; };
 		A557556F2599B5B100406A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557556E2599B5B100406A39 /* SceneDelegate.swift */; };
 		A55755712599B5B100406A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55755702599B5B100406A39 /* ViewController.swift */; };
@@ -41,17 +42,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F47E8D3651D925E2AEB57D /* Pods-swift-boilterplateTests.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.develop.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.develop.xcconfig"; sourceTree = "<group>"; };
 		19DE61EF7ED35BBCD9615410 /* Pods_swift_boilterplate_swift_boilterplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_boilterplate_swift_boilterplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D401770EC0C51D92D4E57 /* Pods_swift_boilterplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_boilterplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AD34B31E14A4D81C875238 /* Pods-swift-boilterplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate.release.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate.release.xcconfig"; sourceTree = "<group>"; };
+		5C388015E6C2B33F62F59150 /* Pods-swift-boilterplateTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.staging.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.staging.xcconfig"; sourceTree = "<group>"; };
+		622F173A58F44D1DB4974FDA /* Pods-swift-boilterplate-swift-boilterplateUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate-swift-boilterplateUITests.staging.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		676F0B72B59EC4BFB245206F /* Pods-swift-boilterplate-swift-boilterplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate-swift-boilterplateUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7D831D74A9C21A11C7D18C2A /* Pods-swift-boilterplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2E07F8DF9FEEE0D3E49FDD /* Pods-swift-boilterplate-swift-boilterplateUITests.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate-swift-boilterplateUITests.develop.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests.develop.xcconfig"; sourceTree = "<group>"; };
 		883140A180D5B07C01F67BE8 /* Pods-swift-boilterplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplateTests.release.xcconfig"; path = "Target Support Files/Pods-swift-boilterplateTests/Pods-swift-boilterplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		89D27156295A29257D164420 /* Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate-swift-boilterplateUITests/Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A500F7522599B91300D211DE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		A50E25F22599B69500BF4F5F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		A50E25F32599B69600BF4F5F /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
-		A55755692599B5B100406A39 /* swift-boilterplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-boilterplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54D9DE6259B07EF00D46107 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A55755692599B5B100406A39 /* Dev.swift-boilterplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dev.swift-boilterplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A557556C2599B5B100406A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A557556E2599B5B100406A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A55755702599B5B100406A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 		A55755902599B5B200406A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5B73127F76CD84D0DF3417 /* Pods-swift-boilterplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate.debug.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate.debug.xcconfig"; sourceTree = "<group>"; };
 		E41583C9A50D593BAB5C09E8 /* Pods_swift_boilterplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_boilterplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0073825341534AE10D2F069 /* Pods-swift-boilterplate.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate.develop.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate.develop.xcconfig"; sourceTree = "<group>"; };
+		F946A9B6C04679A5F30F55B1 /* Pods-swift-boilterplate.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boilterplate.staging.xcconfig"; path = "Target Support Files/Pods-swift-boilterplate/Pods-swift-boilterplate.staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,12 @@
 				676F0B72B59EC4BFB245206F /* Pods-swift-boilterplate-swift-boilterplateUITests.release.xcconfig */,
 				7D831D74A9C21A11C7D18C2A /* Pods-swift-boilterplateTests.debug.xcconfig */,
 				883140A180D5B07C01F67BE8 /* Pods-swift-boilterplateTests.release.xcconfig */,
+				F0073825341534AE10D2F069 /* Pods-swift-boilterplate.develop.xcconfig */,
+				F946A9B6C04679A5F30F55B1 /* Pods-swift-boilterplate.staging.xcconfig */,
+				7E2E07F8DF9FEEE0D3E49FDD /* Pods-swift-boilterplate-swift-boilterplateUITests.develop.xcconfig */,
+				622F173A58F44D1DB4974FDA /* Pods-swift-boilterplate-swift-boilterplateUITests.staging.xcconfig */,
+				07F47E8D3651D925E2AEB57D /* Pods-swift-boilterplateTests.develop.xcconfig */,
+				5C388015E6C2B33F62F59150 /* Pods-swift-boilterplateTests.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,7 +149,7 @@
 		A557556A2599B5B100406A39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A55755692599B5B100406A39 /* swift-boilterplate.app */,
+				A55755692599B5B100406A39 /* Dev.swift-boilterplate.app */,
 				A557557F2599B5B200406A39 /* swift-boilterplateTests.xctest */,
 				A557558A2599B5B200406A39 /* swift-boilterplateUITests.xctest */,
 			);
@@ -155,6 +169,7 @@
 				A50E25F32599B69600BF4F5F /* .swiftlint.yml */,
 				A500F7522599B91300D211DE /* R.generated.swift */,
 				A557557A2599B5B200406A39 /* Info.plist */,
+				A54D9DE6259B07EF00D46107 /* Config.swift */,
 			);
 			path = "swift-boilterplate";
 			sourceTree = "<group>";
@@ -198,7 +213,7 @@
 			);
 			name = "swift-boilterplate";
 			productName = "swift-boilterplate";
-			productReference = A55755692599B5B100406A39 /* swift-boilterplate.app */;
+			productReference = A55755692599B5B100406A39 /* Dev.swift-boilterplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A557557E2599B5B200406A39 /* swift-boilterplateTests */ = {
@@ -458,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54D9DE7259B07EF00D46107 /* Config.swift in Sources */,
 				A55755712599B5B100406A39 /* ViewController.swift in Sources */,
 				A557556D2599B5B100406A39 /* AppDelegate.swift in Sources */,
 				A557556F2599B5B100406A39 /* SceneDelegate.swift in Sources */,
@@ -516,10 +532,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A55755912599B5B200406A39 /* Debug */ = {
+		A54D9DAC259AFFEC00D46107 /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_ID_SUFFIX = .staging;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -558,7 +575,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					"STAGING=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -571,16 +588,152 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-D",
+					STAGING,
+				);
+				OTHER_SWIFT_FLAGS = "-D STAGING";
+				PRODUCT_NAME_PREFIX = stg.;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Staging;
+		};
+		A54D9DAD259AFFEC00D46107 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F946A9B6C04679A5F30F55B1 /* Pods-swift-boilterplate.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-boilterplate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplate${BUNDLE_ID_SUFFIX}";
+				PRODUCT_NAME = "${PRODUCT_NAME_PREFIX}$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		A54D9DAE259AFFEC00D46107 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C388015E6C2B33F62F59150 /* Pods-swift-boilterplateTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-boilterplateTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-boilterplate.app/swift-boilterplate";
+			};
+			name = Staging;
+		};
+		A54D9DAF259AFFEC00D46107 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622F173A58F44D1DB4974FDA /* Pods-swift-boilterplate-swift-boilterplateUITests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-boilterplateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-boilterplate";
+			};
+			name = Staging;
+		};
+		A55755912599B5B200406A39 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_ID_SUFFIX = .develop;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOP=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-D",
+					DEVELOP,
+				);
+				OTHER_SWIFT_FLAGS = "-D DEVELOP";
+				PRODUCT_NAME_PREFIX = dev.;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Develop;
 		};
 		A55755922599B5B200406A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_ID_SUFFIX = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -625,6 +778,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME_PREFIX = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -632,11 +786,11 @@
 			};
 			name = Release;
 		};
-		A55755942599B5B200406A39 /* Debug */ = {
+		A55755942599B5B200406A39 /* Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA5B73127F76CD84D0DF3417 /* Pods-swift-boilterplate.debug.xcconfig */;
+			baseConfigurationReference = F0073825341534AE10D2F069 /* Pods-swift-boilterplate.develop.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "swift-boilterplate/Info.plist";
@@ -644,18 +798,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplate${BUNDLE_ID_SUFFIX}";
+				PRODUCT_NAME = "${PRODUCT_NAME_PREFIX}$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		A55755952599B5B200406A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43AD34B31E14A4D81C875238 /* Pods-swift-boilterplate.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "swift-boilterplate/Info.plist";
@@ -663,16 +817,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "watarumaeda.com.swift-boilterplate${BUNDLE_ID_SUFFIX}";
+				PRODUCT_NAME = "${PRODUCT_NAME_PREFIX}$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A55755972599B5B200406A39 /* Debug */ = {
+		A55755972599B5B200406A39 /* Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D831D74A9C21A11C7D18C2A /* Pods-swift-boilterplateTests.debug.xcconfig */;
+			baseConfigurationReference = 07F47E8D3651D925E2AEB57D /* Pods-swift-boilterplateTests.develop.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,7 +844,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-boilterplate.app/swift-boilterplate";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		A55755982599B5B200406A39 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,9 +868,9 @@
 			};
 			name = Release;
 		};
-		A557559A2599B5B200406A39 /* Debug */ = {
+		A557559A2599B5B200406A39 /* Develop */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89D27156295A29257D164420 /* Pods-swift-boilterplate-swift-boilterplateUITests.debug.xcconfig */;
+			baseConfigurationReference = 7E2E07F8DF9FEEE0D3E49FDD /* Pods-swift-boilterplate-swift-boilterplateUITests.develop.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -732,7 +886,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "swift-boilterplate";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		A557559B2599B5B200406A39 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -760,7 +914,8 @@
 		A55755642599B5B100406A39 /* Build configuration list for PBXProject "swift-boilterplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A55755912599B5B200406A39 /* Debug */,
+				A55755912599B5B200406A39 /* Develop */,
+				A54D9DAC259AFFEC00D46107 /* Staging */,
 				A55755922599B5B200406A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -769,7 +924,8 @@
 		A55755932599B5B200406A39 /* Build configuration list for PBXNativeTarget "swift-boilterplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A55755942599B5B200406A39 /* Debug */,
+				A55755942599B5B200406A39 /* Develop */,
+				A54D9DAD259AFFEC00D46107 /* Staging */,
 				A55755952599B5B200406A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -778,7 +934,8 @@
 		A55755962599B5B200406A39 /* Build configuration list for PBXNativeTarget "swift-boilterplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A55755972599B5B200406A39 /* Debug */,
+				A55755972599B5B200406A39 /* Develop */,
+				A54D9DAE259AFFEC00D46107 /* Staging */,
 				A55755982599B5B200406A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -787,7 +944,8 @@
 		A55755992599B5B200406A39 /* Build configuration list for PBXNativeTarget "swift-boilterplateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A557559A2599B5B200406A39 /* Debug */,
+				A557559A2599B5B200406A39 /* Develop */,
+				A54D9DAF259AFFEC00D46107 /* Staging */,
 				A557559B2599B5B200406A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
