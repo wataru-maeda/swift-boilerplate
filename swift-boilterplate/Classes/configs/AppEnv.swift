@@ -13,7 +13,7 @@ import Foundation
 
 #if DEVELOP
 public struct AppEnv {
-  static let env = "dev"
+  static let env = "DEV"
 }
 
 // ------------------------------------
@@ -22,7 +22,7 @@ public struct AppEnv {
 
 #elseif STAGING
 public struct AppEnv {
-  static let env = "staging"
+  static let env = "STAGING"
 }
 
 // ------------------------------------
@@ -31,6 +31,6 @@ public struct AppEnv {
 
 #else
 public struct AppEnv {
-  static let env = "prod"
+  static let env = "PROD"
 }
 #endif
