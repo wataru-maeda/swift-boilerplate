@@ -22,11 +22,6 @@
 		A55C6D5B259C5BAB004B28E9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A55C6D58259C5BAB004B28E9 /* .swiftlint.yml */; };
 		A55C6D5C259C5BAB004B28E9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A55C6D59259C5BAB004B28E9 /* .gitignore */; };
 		A55C6D5D259C5BAB004B28E9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C6D5A259C5BAB004B28E9 /* R.generated.swift */; };
-		A56C5982259DEE6B00924DC5 /* .gitkeep.diff in Resources */ = {isa = PBXBuildFile; fileRef = A56C5981259DEE6B00924DC5 /* .gitkeep.diff */; };
-		A56C5987259DEE7800924DC5 /* .gitkeep.diff in Resources */ = {isa = PBXBuildFile; fileRef = A56C5986259DEE7700924DC5 /* .gitkeep.diff */; };
-		A56C598C259DEE7D00924DC5 /* .gitkeep.diff in Resources */ = {isa = PBXBuildFile; fileRef = A56C598B259DEE7D00924DC5 /* .gitkeep.diff */; };
-		A56C5991259DEE8100924DC5 /* .gitkeep.diff in Resources */ = {isa = PBXBuildFile; fileRef = A56C5990259DEE8100924DC5 /* .gitkeep.diff */; };
-		A56C5997259DEEA000924DC5 /* .gitkeep.diff in Resources */ = {isa = PBXBuildFile; fileRef = A56C5996259DEEA000924DC5 /* .gitkeep.diff */; };
 		A590B804259DEADE003D69B3 /* AppIcon.develop.png in Resources */ = {isa = PBXBuildFile; fileRef = A590B801259DEADD003D69B3 /* AppIcon.develop.png */; };
 		A590B805259DEADE003D69B3 /* AppIcon.staging.png in Resources */ = {isa = PBXBuildFile; fileRef = A590B802259DEADD003D69B3 /* AppIcon.staging.png */; };
 		A590B806259DEADE003D69B3 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A590B803259DEADD003D69B3 /* AppIcon.png */; };
@@ -453,14 +448,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A590B806259DEADE003D69B3 /* AppIcon.png in Resources */,
-				A56C598C259DEE7D00924DC5 /* .gitkeep.diff in Resources */,
-				A56C5997259DEEA000924DC5 /* .gitkeep.diff in Resources */,
-				A56C5982259DEE6B00924DC5 /* .gitkeep.diff in Resources */,
 				A55C6D5C259C5BAB004B28E9 /* .gitignore in Resources */,
 				A55C6D5B259C5BAB004B28E9 /* .swiftlint.yml in Resources */,
 				A55755792599B5B200406A39 /* LaunchScreen.storyboard in Resources */,
-				A56C5987259DEE7800924DC5 /* .gitkeep.diff in Resources */,
-				A56C5991259DEE8100924DC5 /* .gitkeep.diff in Resources */,
 				A55755762599B5B200406A39 /* Assets.xcassets in Resources */,
 				A590B805259DEADE003D69B3 /* AppIcon.staging.png in Resources */,
 				A55755742599B5B100406A39 /* Main.storyboard in Resources */,
