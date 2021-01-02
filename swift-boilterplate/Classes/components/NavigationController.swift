@@ -8,16 +8,16 @@
 import UIKit
 
 class NavigationController: UINavigationController {
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    configureBarStyle()
-  }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configureBarStyle()
+    }
 
-  private func configureBarStyle() {
-    navigationBar.barTintColor = Colors.purpleDark
-    navigationBar.barStyle = .black
-    navigationBar.tintColor = .white
-    navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-    navigationBar.isTranslucent = false
-  }
+    private func configureBarStyle() {
+        navigationBar.barTintColor = Colors.purpleDark
+        navigationBar.barStyle = .black
+        navigationBar.tintColor = .white
+        navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationBar.isTranslucent = false
+    }
 }
