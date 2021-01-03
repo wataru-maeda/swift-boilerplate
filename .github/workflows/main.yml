@@ -2,7 +2,6 @@ name: CI
 
 pull_request:
   paths:
-    - '.github/workflows/swiftlint.yml'
     - '.swiftlint.yml'
     - '**/*.swift'
 
