@@ -15,6 +15,7 @@
 		A5091E93259DEC6D00C70703 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5091E92259DEC6D00C70703 /* NavigationController.swift */; };
 		A5091E99259DEC8300C70703 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5091E98259DEC8300C70703 /* Colors.swift */; };
 		A513E94225A021AF00FDA568 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A513E94125A021AF00FDA568 /* TabbarController.swift */; };
+		A51E9ABE25A25A170065F81C /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = A51E9ABD25A25A170065F81C /* .swiftformat */; };
 		A54D9DE7259B07EF00D46107 /* AppEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D9DE6259B07EF00D46107 /* AppEnv.swift */; };
 		A557556D2599B5B100406A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557556C2599B5B100406A39 /* AppDelegate.swift */; };
 		A557556F2599B5B100406A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557556E2599B5B100406A39 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 		A5B0AB3E25A1728000BED91C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0AB3D25A1728000BED91C /* Fonts.swift */; };
 		A5B75A2E25A02ADF008FC277 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B75A2D25A02ADF008FC277 /* Images.swift */; };
 		A5D9399525A123AA00B9083D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9399425A123A900B9083D /* SettingsViewController.swift */; };
+		A5F1ED5925A25F1D0023885A /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = A5F1ED5825A25F1D0023885A /* .swift-version */; };
 		C17BEA77BF2BB8346C330C54 /* Pods_SwiftBoilterplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298D401770EC0C51D92D4E57 /* Pods_SwiftBoilterplateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,7 @@
 		A5091E92259DEC6D00C70703 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		A5091E98259DEC8300C70703 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A513E94125A021AF00FDA568 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		A51E9ABD25A25A170065F81C /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
 		A54D9DE6259B07EF00D46107 /* AppEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnv.swift; sourceTree = "<group>"; };
 		A55755692599B5B100406A39 /* dev.SwiftBoilterplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev.SwiftBoilterplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A557556C2599B5B100406A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 		A5B0AB3D25A1728000BED91C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		A5B75A2D25A02ADF008FC277 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		A5D9399425A123A900B9083D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A5F1ED5825A25F1D0023885A /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
 		AA5B73127F76CD84D0DF3417 /* Pods-SwiftBoilterplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBoilterplate.debug.xcconfig"; path = "Target Support Files/Pods-SwiftBoilterplate/Pods-SwiftBoilterplate.debug.xcconfig"; sourceTree = "<group>"; };
 		E41583C9A50D593BAB5C09E8 /* Pods_SwiftBoilterplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBoilterplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0073825341534AE10D2F069 /* Pods-SwiftBoilterplate.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBoilterplate.develop.xcconfig"; path = "Target Support Files/Pods-SwiftBoilterplate/Pods-SwiftBoilterplate.develop.xcconfig"; sourceTree = "<group>"; };
@@ -268,6 +272,8 @@
 				A557557A2599B5B200406A39 /* Info.plist */,
 				A55C6D59259C5BAB004B28E9 /* .gitignore */,
 				A55C6D58259C5BAB004B28E9 /* .swiftlint.yml */,
+				A51E9ABD25A25A170065F81C /* .swiftformat */,
+				A5F1ED5825A25F1D0023885A /* .swift-version */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 			buildPhases = (
 				6327092CEEE0315141D23D84 /* [CP] Check Pods Manifest.lock */,
 				A500F74E2599B89A00D211DE /* Run R.Swift */,
+				A51E9AB925A259970065F81C /* Run SwiftFormat */,
 				A55755652599B5B100406A39 /* Sources */,
 				A50E25F92599B6B100BF4F5F /* Run SwiftLint */,
 				A55755662599B5B100406A39 /* Frameworks */,
@@ -498,7 +505,9 @@
 				A5B0AB3825A1726F00BED91C /* rounded-mplus-1p-light.ttf in Resources */,
 				A55C242725A02CD4006FF2D0 /* AppIcon.staging.png in Resources */,
 				A55C242625A02CD4006FF2D0 /* AppIcon.develop.png in Resources */,
+				A51E9ABE25A25A170065F81C /* .swiftformat in Resources */,
 				A55755792599B5B200406A39 /* LaunchScreen.storyboard in Resources */,
+				A5F1ED5925A25F1D0023885A /* .swift-version in Resources */,
 				A55755762599B5B200406A39 /* Assets.xcassets in Resources */,
 				A55755742599B5B100406A39 /* Main.storyboard in Resources */,
 			);
@@ -636,7 +645,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# swift lint configuration\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect --format\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "# swift lint configuration\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n  \"${PODS_ROOT}/SwiftLint/swiftlint\"\nelse\n  echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		A51E9AB925A259970065F81C /* Run SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftFormat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
 		};
 		B8CD7DEC32D5AB3908AC5973 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -741,6 +768,7 @@
 		A54D9DAC259AFFEC00D46107 /* Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_ID_SUFFIX = .staging;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -870,6 +898,7 @@
 		A55755912599B5B200406A39 /* Develop */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_ID_SUFFIX = .develop;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -938,6 +967,7 @@
 		A55755922599B5B200406A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_ID_SUFFIX = "";
 				CLANG_ANALYZER_NONNULL = YES;

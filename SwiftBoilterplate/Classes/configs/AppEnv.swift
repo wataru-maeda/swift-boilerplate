@@ -12,25 +12,25 @@ import Foundation
 // ------------------------------------
 
 #if DEVELOP
-public struct AppEnv {
+  public enum AppEnv {
     static let env = "DEV"
-}
+  }
 
-// ------------------------------------
-// Staging
-// ------------------------------------
+  // ------------------------------------
+  // Staging
+  // ------------------------------------
 
 #elseif STAGING
-public struct AppEnv {
+  public enum AppEnv {
     static let env = "STAGING"
-}
+  }
 
-// ------------------------------------
-// Production
-// ------------------------------------
+  // ------------------------------------
+  // Production
+  // ------------------------------------
 
 #else
-public struct AppEnv {
+  public enum AppEnv {
     static let env = "PROD"
-}
+  }
 #endif

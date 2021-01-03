@@ -8,14 +8,14 @@
 import UIKit
 
 class UIButtonCallback: UIButton {
-    private lazy var callback: (UIButton) -> Void = { button in }
+  private lazy var callback: (UIButton) -> Void = { _ in }
 
-    func handleClick(event: UIControl.Event, callback: @escaping (UIButton) -> Void) {
-        self.callback = callback
-        addTarget(self, action: #selector(tapped), for: event)
-    }
+  func handleClick(event: UIControl.Event, callback: @escaping (UIButton) -> Void) {
+    self.callback = callback
+    addTarget(self, action: #selector(tapped), for: event)
+  }
 
-    @objc private func tapped() {
-        callback(self)
-    }
+  @objc private func tapped() {
+    callback(self)
+  }
 }

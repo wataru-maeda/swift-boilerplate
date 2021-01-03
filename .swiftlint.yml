@@ -1,6 +1,8 @@
 excluded:
   - Pods/
   - Carthage/
+  - SwiftBoilterplateTests/
+  - SwiftBoilterplateUITests/
   - R.generated.swift
 disabled_rules:
   - file_header
@@ -9,10 +11,11 @@ disabled_rules:
   - number_separator
   - file_name
   - discouraged_object_literal
+  - line_length
+  - attributes
 opt_in_rules:
   - anyobject_protocol
   - array_init
-  - attributes
   - closure_end_indentation
   - closure_spacing
   - collection_alignment
@@ -70,9 +73,3 @@ opt_in_rules:
   - vertical_whitespace_opening_braces
   - xct_specific_matcher
   - yoda_condition
-line_length:
-  warning: 120
-  ignores_function_declarations: true
-  ignores_comments: true
-  ignores_interpolated_strings: true
-  ignores_urls: true
