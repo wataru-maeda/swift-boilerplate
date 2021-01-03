@@ -12,7 +12,8 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "Settings"
-        setupProfileAtRight()
+        setupLeftMenu()
+        setupHeaderLogo()
         initViews()
     }
 

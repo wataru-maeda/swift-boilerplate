@@ -29,17 +29,33 @@ class NavigationController: UINavigationController {
 
 extension UIViewController {
     /**
-     setup navigation bar button at right
+     setup header logo
      */
-    func setupProfileAtRight() {
+    func setupHeaderLogo() {
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.heightAnchor.constraint(equalToConstant: 32).isActive = true
+        imageView.contentMode = .scaleAspectFit
+        imageView.image = Images.logo
+        let contentView = UIView()
+        navigationItem.titleView = contentView
+        navigationItem.titleView?.addSubview(imageView)
+        imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+        imageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+    }
+
+    /**
+     setup navigation bar button at left
+     */
+    func setupLeftMenu() {
         let button = UIButton(type: .custom)
-        button.setImage(Images.user, for: .normal)
+        button.setImage(Images.bars, for: .normal)
         button.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
         button.imageView?.contentMode = .scaleAspectFit
-        button.addTarget(self, action: #selector(self.openSideMenu), for: .touchUpInside)
+        button.addTarget(self, action: #selector(openSideMenu), for: .touchUpInside)
         let barButton = UIBarButtonItem()
         barButton.customView = button
-        navigationItem.rightBarButtonItem = barButton
+        navigationItem.leftBarButtonItem = barButton
     }
 
     /**
@@ -49,7 +65,8 @@ extension UIViewController {
         let sideMenuView = UIViewController()
         sideMenuView.view.backgroundColor = .lightGray
         let sideMenu = SideMenuController(rootViewController: sideMenuView)
-        sideMenu.presentationStyle = .viewSlideOut
+        sideMenu.presentationStyle = .viewSlideOutMenuPartialIn
+        sideMenu.leftSide = true
         present(sideMenu, animated: true, completion: nil)
     }
 }

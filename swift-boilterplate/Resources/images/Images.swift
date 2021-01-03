@@ -14,7 +14,8 @@ import UIKit
 // ------------------------------------
 
 struct Images {
-    static let logo = R.image.appIcon()
+    static let icon = R.image.appIcon()
+    static let logo = R.image.logo()
 }
 
 // ------------------------------------
@@ -22,8 +23,8 @@ struct Images {
 // ------------------------------------
 
 extension Images {
-    static let user = UIImage.fontAwesomeIcon(
-        name: .userCircle,
+    static let bars = UIImage.fontAwesomeIcon(
+        name: .bars,
         style: .solid,
         textColor: .white,
         size: CGSize(width: 24, height: 24)

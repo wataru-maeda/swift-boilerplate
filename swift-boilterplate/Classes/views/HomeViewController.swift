@@ -12,7 +12,8 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "Home"
-        setupProfileAtRight()
+        setupLeftMenu()
+        setupHeaderLogo()
         initViews()
     }
 

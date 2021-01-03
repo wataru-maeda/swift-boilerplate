@@ -12,7 +12,7 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "Detials"
-        setupProfileAtRight()
+        setupHeaderLogo()
         initViews()
     }
 
