@@ -7,8 +7,6 @@ on:
       - '.swiftlint.yml'
       - '**/*.swift'
 
-  workflow_dispatch:
-
 jobs:
   SwiftLint:
     runs-on: ubuntu-latest
