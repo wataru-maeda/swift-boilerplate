@@ -1,22 +1,22 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'swift_boilterplate' do
+target 'SwiftBoilterplate' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for swift_boilterplate
+  # Pods for SwiftBoilterplate
 	pod 'SwiftLint'
 	pod 'R.swift'
 	pod 'FontAwesome.swift'
 	pod 'SideMenu'
 
-  target 'swift_boilterplateTests' do
+  target 'SwiftBoilterplateTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'swift_boilterplateUITests' do
+  target 'SwiftBoilterplateUITests' do
     # Pods for testing
   end
 

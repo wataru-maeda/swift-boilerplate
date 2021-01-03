@@ -1,8 +1,6 @@
 excluded:
   - Pods/
   - Carthage/
-  - swift_boilterplateTests/
-  - swift_boilterplateUITests/
   - R.generated.swift
 disabled_rules:
   - file_header
