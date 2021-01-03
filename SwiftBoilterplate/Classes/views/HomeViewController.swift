@@ -11,10 +11,15 @@ class HomeViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .white
+    initNavigationItems()
+    initViews()
+  }
+
+  private func initNavigationItems() {
     title = "Home"
     setupLeftMenu()
     setupHeaderLogo()
-    initViews()
+    setupEmptyRightMenu()
   }
 
   private func initViews() {

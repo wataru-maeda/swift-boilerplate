@@ -11,10 +11,15 @@ class SettingsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .white
+    initNavigationItems()
+    initViews()
+  }
+
+  private func initNavigationItems() {
     title = "Settings"
     setupLeftMenu()
     setupHeaderLogo()
-    initViews()
+    setupEmptyRightMenu()
   }
 
   private func initViews() {

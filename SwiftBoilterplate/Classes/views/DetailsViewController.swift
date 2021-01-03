@@ -11,9 +11,14 @@ class DetailsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .white
+    initNavigationItems()
+    initViews()
+  }
+
+  private func initNavigationItems() {
     title = "Detials"
     setupHeaderLogo()
-    initViews()
+    setupEmptyRightMenu()
   }
 
   private func initViews() {

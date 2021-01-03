@@ -45,6 +45,15 @@ extension UIViewController {
   }
 
   /**
+   setup navigation bar button at right
+   */
+  func setupEmptyRightMenu() {
+    let barButton = UIBarButtonItem()
+    barButton.customView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+    navigationItem.rightBarButtonItem = barButton
+  }
+
+  /**
    setup navigation bar button at left
    */
   func setupLeftMenu() {
