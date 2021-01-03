@@ -18,10 +18,17 @@ struct Images {
 }
 
 // ------------------------------------
-// Font Awsome
+// Font Awesome
 // ------------------------------------
 
 extension Images {
+    static let user = UIImage.fontAwesomeIcon(
+        name: .userCircle,
+        style: .solid,
+        textColor: .white,
+        size: CGSize(width: 24, height: 24)
+    )
+
     static let home = UIImage.fontAwesomeIcon(
         name: .home,
         style: .solid,
