@@ -8,7 +8,7 @@ on:
       - '**/*.swift'
   push:
     branches:
-      - lint-check-on-push
+      - main
 
 jobs:
   SwiftLint:
