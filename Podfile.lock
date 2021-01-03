@@ -3,11 +3,13 @@ PODS:
   - R.swift (5.3.1):
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
+  - SideMenu (6.5.0)
   - SwiftLint (0.40.1)
 
 DEPENDENCIES:
   - FontAwesome.swift
   - R.swift
+  - SideMenu
   - SwiftLint
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - FontAwesome.swift
     - R.swift
     - R.swift.Library
+    - SideMenu
     - SwiftLint
 
 SPEC CHECKSUMS:
   FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
   R.swift: 56ec7e3aef34b9eee47a659e42462db2c1cc5ac3
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SwiftLint: bbfed21bf4451dcbd0f5cdbee44a18e06cf91b12
 
-PODFILE CHECKSUM: fdda67a873497d11c4ddb2abb95de803d10314fc
+PODFILE CHECKSUM: ce518d67f4e4690c606f7f081ed74bb2e3529c60
 
 COCOAPODS: 1.9.3

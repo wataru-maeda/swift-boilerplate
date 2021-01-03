@@ -14,4 +14,5 @@ struct Colors {
 
     // pink
     static let pink = #colorLiteral(red: 0.9628153443, green: 0.3487163782, blue: 0.467050612, alpha: 1)
+    static let pinkDark = #colorLiteral(red: 0.6745098039, green: 0.2470588235, blue: 0.3254901961, alpha: 1)
 }

@@ -1,19 +1,23 @@
 //
-//  Navigation.swift
+//  SideMenuController.swift
 //  swift-boilterplate
 //
-//  Created by Wataru Maeda on 2020/12/30.
+//  Created by Wataru Maeda on 2021/01/02.
 //
 
+import SideMenu
 import UIKit
 
-class NavigationController: UINavigationController {
+class SideMenuController: SideMenuNavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureBarStyle()
+        configureTheme()
     }
 
-    private func configureBarStyle() {
+    /**
+     update default navigation theme
+     */
+    private func configureTheme() {
         navigationBar.barTintColor = Colors.purpleDark
         navigationBar.barStyle = .black
         navigationBar.tintColor = .white

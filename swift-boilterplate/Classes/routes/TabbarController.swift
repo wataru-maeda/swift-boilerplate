@@ -9,36 +9,13 @@ import UIKit
 class TabbarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        configreTabs()
-        configureTabStyles()
+        configureTheme()
     }
 
-    private func configreTabs() {
-        let vcHome = ViewController()
-        let vcSetttings = ViewController()
-
-        // set tabbar item
-        vcHome.tabBarItem = UITabBarItem(
-            title: "Home",
-            image: Images.home,
-            tag: 0
-        )
-        vcSetttings.tabBarItem = UITabBarItem(
-            title: "Settings",
-            image: Images.settings,
-            tag: 1
-        )
-
-        // wrap with navigation controller
-        let ncHome = NavigationController(rootViewController: vcHome)
-        let ncSettings = NavigationController(rootViewController: vcSetttings)
-
-        // set in view controllers array
-        viewControllers = [ncHome, ncSettings]
-        selectedIndex = 0
-    }
-
-    private func configureTabStyles() {
+    /**
+     setup tabbar theme
+     */
+    private func configureTheme() {
         // selected icon tint color
         UITabBar.appearance().tintColor = Colors.purple
 

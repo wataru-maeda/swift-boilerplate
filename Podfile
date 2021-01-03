@@ -9,6 +9,7 @@ target 'swift-boilterplate' do
 	pod 'SwiftLint'
 	pod 'R.swift'
 	pod 'FontAwesome.swift'
+	pod 'SideMenu'
 
   target 'swift-boilterplateTests' do
     inherit! :search_paths

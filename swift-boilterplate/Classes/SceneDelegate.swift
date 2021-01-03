@@ -11,11 +11,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Configure window
+        // configure root
         guard let scene = scene as? UIWindowScene else { return }
         self.window = UIWindow(windowScene: scene)
-        let root = TabbarController()
-        self.window?.rootViewController = root
+        self.window?.rootViewController = Routes.create()
         self.window?.makeKeyAndVisible()
     }
 
